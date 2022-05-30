@@ -13,7 +13,7 @@ const Dashboard = () => {
             <h1>{user && user.displayName ? user.displayName : user.email}</h1>
           </div>
           <div className="dashboard-img">
-            <img src={process.env.PUBLIC_URL + "./images/Learning.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Learning.jpg"} />
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@ const Login = () => {
           <h1>Student Login</h1>
           <h4>make sure your account is secure</h4>
           <img
-            src={process.env.PUBLIC_URL + "./images/Learning-online-05.jpg"}
+            src={process.env.PUBLIC_URL + "/images/Learning-online-05.jpg"}
           />
         </div>
         <div className="login-text">
@@ -64,7 +64,7 @@ const Login = () => {
             <hr></hr>
             <div className="google-signin">
               <div className="google-logo">
-                <img src={process.env.PUBLIC_URL + "./images/google.png"} />
+                <img src={process.env.PUBLIC_URL + "/images/google.png"} />
               </div>
               <div className="google-text" onClick={handleGoogleSignIn}>
                 <p>Sign In With Google</p>

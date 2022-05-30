@@ -25,7 +25,7 @@ const Landing = () => {
               </p>
             </div>
             <div className="student">
-              <img src={process.env.PUBLIC_URL + "./images/student-1.jpg"} />
+              <img src={process.env.PUBLIC_URL + "/images/student-1.jpg"} />
             </div>
           </div>
         </div>
