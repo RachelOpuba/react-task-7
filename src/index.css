@@ -475,7 +475,7 @@ h3 {
 
   /* Courses page */
   .courses-wraper {
-    top: 0px;
+    top: 20px;
   }
 }
 
@@ -534,7 +534,9 @@ h3 {
     margin: 0;
   }
   .profile-page {
-    left: 110px;
+    left: 100px;
+    height: auto;
+    margin-top: 50px;
   }
 
   .courses-wraper {
@@ -576,6 +578,11 @@ h3 {
 
   .side-bar {
     width: auto;
+    height: auto;
+  }
+
+  .dashboard {
+    height: auto;
   }
 
   .side-bar a,
@@ -585,7 +592,6 @@ h3 {
 
   .sidebar-container {
     height: 400px;
-    margin: 2px solid white;
     width: auto;
   }
 }
