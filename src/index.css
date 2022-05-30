@@ -535,8 +535,6 @@ h3 {
   }
   .profile-page {
     left: 100px;
-    height: auto;
-    margin-top: 50px;
   }
 
   .courses-wraper {
@@ -578,11 +576,6 @@ h3 {
 
   .side-bar {
     width: auto;
-    height: auto;
-  }
-
-  .dashboard {
-    height: auto;
   }
 
   .side-bar a,
